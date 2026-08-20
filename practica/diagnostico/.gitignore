@@ -1,0 +1,7 @@
+.env
+.idea/
+.vscode/
+backend/target/
+mi-app/node_modules/
+mi-app/dist/
+*.log
