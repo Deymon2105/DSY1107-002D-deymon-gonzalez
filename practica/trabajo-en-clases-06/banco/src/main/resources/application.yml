@@ -1,0 +1,8 @@
+kafka:
+  bootstrap-servers: localhost:9092
+  streams:
+    application-id: banco-pipeline-app # ID único del Consumer Group de Streams
+    properties:
+      default.key.serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+      default.value.serde: org.springframework.kafka.support.serializer.JsonSerde
+      spring.json.trusted.packages: "*"
